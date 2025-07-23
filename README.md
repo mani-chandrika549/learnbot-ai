@@ -2,6 +2,8 @@
 
 LearnBot AI is a simple web-based chatbot that helps users discover structured learning paths in various tech fields like Java, Full Stack, AI, Web Development, Python, DSA, and more.
 
+🔗 **Live Demo:** [https://learnbot-ai.onrender.com](https://learnbot-ai.onrender.com)
+
 > 🚀 Built with Flask · HTML · CSS · Python · JSON
 
 ---
@@ -96,7 +98,7 @@ This bot was built to help beginners and job-seekers quickly understand what to 
 
 **Mani Chandrika**  
 💼 B.Tech CSE Student | Tech Enthusiast  
-📬 [LinkedIn](https://www.linkedin.com/in/mani-chandrika549)
+📬 [LinkedIn](www.linkedin.com/in/mani-chandrika-charugundla)
 
 ---
 
