@@ -18,7 +18,10 @@ LearnBot AI is a simple web-based chatbot that helps users discover structured l
 
 ## 📸 Preview
 
-![Chat UI](screenshots/preview.png) <!-- Replace with your screenshot or remove -->
+<p align="center">
+  <img src="preview.png" alt="Chat UI" width="600"/>
+</p>
+
 
 ---
 
