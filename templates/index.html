@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LearnBot – AI Learning Path Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <h2>🤖 LearnBot – Your AI Learning Path Guide</h2>
+        <div id="chat-box"></div>
+
+        <div style="display: flex; align-items: center; margin-top: 10px;">
+            <input type="text" id="user-input" placeholder="Ask me about AI, ML, DSA, Web Dev...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+        <div class="suggestions">
+            <button onclick="quickAsk('Tell me about AI')">AI</button>
+            
+            <button onclick="quickAsk('Guide me for Web Development')">Web Dev</button>
+            <button onclick="quickAsk('What is Cybersecurity path?')">Cybersecurity</button>
+            <button onclick="quickAsk('Explain DSA roadmap')">DSA</button>
+            <button onclick="quickAsk('Tell me about Java learning path')">Java</button>
+        </div>
+    </div>
+
+    <script>
+        // Typewriter effect
+        window.onload = function () {
+            const welcomeMsg = "👋 Welcome to LearnBot! Ask me about AI, DSA, Web Development, Cybersecurity, Python, and more...";
+            let i = 0;
+            const speed = 30;
+            const chatBox = document.getElementById("chat-box");
+
+            function typeWriter() {
+                if (i < welcomeMsg.length) {
+                    chatBox.innerHTML += welcomeMsg.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+            typeWriter();
+        };
+
+        function quickAsk(msg) {
+            document.getElementById("user-input").value = msg;
+            sendMessage();
+        }
+
+        function sendMessage() {
+            const userInput = document.getElementById("user-input").value.trim();
+            const chatBox = document.getElementById("chat-box");
+
+            if (userInput === '') return;
+
+            chatBox.innerHTML += `<div class="user-msg">👩‍💻: ${userInput}</div>`;
+
+            fetch('/get', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                body: `msg=${encodeURIComponent(userInput)}`
+            })
+            .then(response => response.json())
+            .then(data => {
+                chatBox.innerHTML += `<div class="bot-msg">🤖: ${data.reply.replace(/\n/g, '<br>')}</div>`;
+                document.getElementById("user-input").value = '';
+                chatBox.scrollTop = chatBox.scrollHeight;
+            });
+        }
+    </script>
+</body>
+</html>

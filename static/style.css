@@ -1,0 +1,127 @@
+/* Global Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d1117;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Chat Container */
+.chat-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #161b22;
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00ffcc66;
+    border: 1px solid #00ffcc33;
+}
+
+#chat-box {
+    scroll-behavior: smooth;
+}
+button:hover {
+    box-shadow: 0 0 8px #00ffcc;
+    transition: 0.3s;
+}
+
+
+/* Chat Box */
+#chat-box {
+    height: 350px;
+    overflow-y: auto;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #0d1117;
+    border-radius: 10px;
+    border: 1px solid #333;
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+/* User & Bot Messages */
+.user-msg {
+    color: #00ffd5;
+    background: rgba(0, 255, 213, 0.08);
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.bot-msg {
+    color: #80ffea;
+    background: rgba(128, 255, 234, 0.08);
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.bot-msg b {
+    color: #adf7d1;
+}
+
+
+/* Input Field */
+#user-input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+/* Send Button */
+button {
+    padding: 10px 16px;
+    background-color: #00ffcc;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #00c9a7;
+}
+
+/* Suggestion Buttons */
+.suggestions {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.suggestions button {
+    background: #292e36;
+    color: #eee;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.suggestions button:hover {
+    background: #3a3f47;
+}
+
+/* Scrollbar (Optional Styling for WebKit) */
+#chat-box::-webkit-scrollbar {
+    width: 6px;
+}
+#chat-box::-webkit-scrollbar-thumb {
+    background: #00ffcc;
+    border-radius: 6px;
+}

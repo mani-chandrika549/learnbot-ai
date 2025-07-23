@@ -1,0 +1,197 @@
+{
+  "java": {
+    "title": "Java Programming",
+    "steps": [
+      "Start with Java basics: variables, data types, operators",
+      "Understand control flow: if-else, loops, switch, break, continue",
+      "Learn OOP concepts: Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction",
+      "Practice exception handling and file I/O",
+      "Explore Collections Framework: List, Set, Map, Queue",
+      "Work with Java 8+ features: Streams, Lambdas, Functional Interfaces",
+      "Understand multithreading and concurrency",
+      "Get familiar with JDBC and database connectivity",
+      "Learn Java GUI (Swing/JavaFX) basics",
+      "Build projects: Student Management System, Banking App, Console Quiz App"
+    ]
+  },
+  "full_stack": {
+    "title": "Full Stack Development",
+    "steps": [
+      "Learn HTML, CSS, and JavaScript",
+      "Master a frontend framework (React, Angular, or Vue.js)",
+      "Learn backend development (Node.js, Python with Flask/Django, or PHP)",
+      "Understand databases: SQL (MySQL/PostgreSQL) and NoSQL (MongoDB)",
+      "Implement REST APIs and authentication",
+      "Study deployment: Docker, GitHub Actions, and Cloud platforms like AWS/GCP",
+      "Build projects: Portfolio site, CRUD app, Real-time chat app"
+    ]
+  },
+  "ai": {
+    "title": "Artificial Intelligence",
+    "steps": [
+      "Understand what AI is and its applications",
+      "Learn Math: Linear Algebra, Calculus, Probability, and Statistics",
+      "Understand Machine Learning: Supervised, Unsupervised, and Reinforcement Learning",
+      "Dive into Deep Learning: Neural Networks, CNNs, RNNs",
+      "Use Python libraries: NumPy, Pandas, scikit-learn, TensorFlow, PyTorch",
+      "Build AI projects: Image classifier, Chatbot, NLP apps",
+      "Explore advanced AI: GANs, Transfer Learning, AI Ethics"
+    ]
+  },
+  "web_development": {
+    "title": "Web Development",
+    "steps": [
+      "Learn HTML5, CSS3, JavaScript",
+      "Understand responsive design with Bootstrap or Tailwind CSS",
+      "Get started with Git and GitHub",
+      "Learn frontend frameworks: React, Angular, or Vue.js",
+      "Backend basics with Node.js or Python (Flask/Django)",
+      "Work with databases: MySQL, PostgreSQL, MongoDB",
+      "Host websites using Netlify, Vercel, or Heroku"
+    ]
+  },
+  "app_development": {
+    "title": "App Development",
+    "steps": [
+      "Learn core programming (Java, Kotlin, or Dart)",
+      "Choose a platform: Android (Java/Kotlin) or Flutter (Dart)",
+      "Understand UI design patterns (MVVM, MVC)",
+      "Build app components: Activities, Fragments, Widgets",
+      "Work with APIs and databases (Firebase, SQLite)",
+      "Handle app permissions, notifications, and services",
+      "Deploy apps to Play Store or TestFlight"
+    ]
+  },
+  "dsa": {
+    "title": "Data Structures & Algorithms",
+    "steps": [
+      "Master a language (C++, Java, or Python)",
+      "Learn time and space complexity (Big-O)",
+      "Understand data structures: Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, HashMaps",
+      "Practice sorting, searching, recursion, and backtracking",
+      "Solve 300+ problems on LeetCode, HackerRank, or GFG",
+      "Learn problem patterns: Sliding Window, Two Pointers, Binary Search",
+      "Prepare for coding interviews"
+    ]
+  },
+  "cloud_devops": {
+    "title": "Cloud Computing & DevOps",
+    "steps": [
+      "Understand basics of Cloud (IaaS, PaaS, SaaS)",
+      "Learn AWS/GCP/Azure core services (EC2, S3, Lambda)",
+      "Understand CI/CD pipelines with GitHub Actions or Jenkins",
+      "Use Docker and Kubernetes for container orchestration",
+      "Learn Infrastructure as Code (IaC) with Terraform",
+      "Monitor apps with Prometheus and Grafana",
+      "Deploy scalable and secure cloud-native applications"
+    ]
+  },
+  "database": {
+    "title": "Database Development",
+    "steps": [
+      "Learn SQL (CRUD, Joins, Views, Stored Procedures)",
+      "Understand relational databases: MySQL, PostgreSQL",
+      "Explore NoSQL databases: MongoDB, Firebase",
+      "Practice writing queries and optimizing performance",
+      "Design normalized schemas and ER diagrams",
+      "Integrate databases with backend (Flask, Node.js)",
+      "Secure database access and perform backups"
+    ]
+  },
+  "python_foundation": {
+    "title": "Python Programming",
+    "steps": [
+      "Learn syntax, variables, and data types",
+      "Control structures: if-else, loops, functions",
+      "Understand lists, dictionaries, tuples, and sets",
+      "Handle exceptions and file operations",
+      "Learn OOP concepts in Python",
+      "Explore modules: NumPy, Pandas, Matplotlib",
+      "Build small projects: Calculator, To-Do App, Web Scraper"
+    ]
+  },
+  "cybersecurity": {
+    "title": "Cybersecurity",
+    "steps": [
+      "Understand basic cybersecurity concepts and terminology",
+      "Learn about networks, firewalls, and VPNs",
+      "Study cryptography and hashing algorithms",
+      "Get familiar with OWASP Top 10 vulnerabilities",
+      "Practice ethical hacking with tools like Nmap, Wireshark, Metasploit",
+      "Explore security certifications (CEH, CompTIA Security+)",
+      "Work on projects like a secure login system or vulnerability scanner"
+    ]
+  },
+  "machine_learning": {
+    "title": "Machine Learning",
+    "steps": [
+      "Understand the basics of ML: types and use-cases",
+      "Learn Python and libraries like NumPy, Pandas, Matplotlib",
+      "Study algorithms: Linear Regression, KNN, Decision Trees, SVM",
+      "Evaluate models using metrics: accuracy, precision, recall",
+      "Implement projects like spam detection, price prediction",
+      "Use tools like scikit-learn, Jupyter, and Google Colab",
+      "Explore model deployment (Flask API + Heroku/Render)"
+    ]
+  },
+  "nlp": {
+    "title": "Natural Language Processing (NLP)",
+    "steps": [
+      "Understand how computers process language",
+      "Learn text preprocessing: tokenization, stop words, stemming",
+      "Work with libraries like NLTK, spaCy, HuggingFace Transformers",
+      "Build projects: sentiment analysis, chatbots, text summarizers",
+      "Understand word embeddings: Word2Vec, GloVe, BERT",
+      "Train custom models for language classification",
+      "Explore real-world applications in voice assistants and AI tools"
+    ]
+  },
+  "data_science": {
+    "title": "Data Science",
+    "steps": [
+      "Learn Python/R and libraries like Pandas, Matplotlib, Seaborn",
+      "Study statistics, probability, and data visualization",
+      "Understand data cleaning, wrangling, and transformation",
+      "Analyze datasets using Jupyter Notebooks",
+      "Apply machine learning to real-world datasets",
+      "Build projects: COVID analysis, customer segmentation",
+      "Present insights using dashboards (Power BI, Tableau)"
+    ]
+  },
+  "ui_ux": {
+    "title": "UI/UX Design",
+    "steps": [
+      "Understand design principles: alignment, contrast, spacing, hierarchy",
+      "Learn tools like Figma, Adobe XD, Sketch",
+      "Create wireframes and mockups",
+      "Conduct user research and testing",
+      "Design mobile-first and responsive layouts",
+      "Prototype interactive designs",
+      "Build a portfolio showcasing your UI/UX projects"
+    ]
+  },
+  "prompt_engineering": {
+    "title": "Prompt Engineering",
+    "steps": [
+      "Understand how LLMs like GPT work (tokens, context, temperature)",
+      "Learn prompt formats: zero-shot, one-shot, few-shot",
+      "Experiment with role-based prompting",
+      "Practice using OpenAI Playground or API",
+      "Design prompts for summarization, Q&A, translation, classification",
+      "Evaluate prompt effectiveness and optimize results",
+      "Build projects: AI resume generator, smart FAQ bot, content rewriter"
+    ]
+  },
+  "iot": {
+    "title": "IoT (Internet of Things)",
+    "steps": [
+      "Learn how IoT systems work: sensors, microcontrollers, connectivity",
+      "Work with Arduino, Raspberry Pi, or ESP32 boards",
+      "Program in C/C++, Python, or MicroPython",
+      "Connect devices using MQTT, HTTP, Bluetooth, WiFi",
+      "Store data in the cloud (ThingSpeak, Firebase)",
+      "Build IoT dashboards and analytics",
+      "Build projects: Smart Home, Weather Station, Health Tracker"
+    ]
+  }
+}
